@@ -24,7 +24,5 @@ def hello_admin():
 def hello_guest(guest):
     return "Hello {0} as Guest".format(guest)
 
-
-
 if __name__ == "__main__":
     app.run()
