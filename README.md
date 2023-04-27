@@ -13,7 +13,7 @@ If you have a Python virtual environment, activate it with the following command
 source venv/bin/activate
 ```
 
-If you don't have a Python virtural environment or you just created a new work directory, use the following commands to create a new virtual environemnt:  
+If you don't have a Python virtual environment, or you just created a new work directory, use the following commands to create a new virtual environment:  
 
 ```bash
 # You may need to use python3 to replace python depending on your system settings 
