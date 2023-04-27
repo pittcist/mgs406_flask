@@ -1,7 +1,7 @@
 import mysql.connector as sql
 
-mydb = sql.connect(host="localhost", user="flask", password="ubuntu", database="flask_db")
-cur = mydb.cursor()
+conn = sql.connect(host="localhost", user="flask", password="ubuntu", database="flask_db")
+cur = conn.cursor()
 
 cmd = "CREATE TABLE students (\
     sid INT NOT NULL AUTO_INCREMENT PRIMARY KEY, \
@@ -11,7 +11,7 @@ cmd = "CREATE TABLE students (\
     zip VARCHAR(30))"
 
 cur.execute(cmd)
-mydb.close()
+conn.close()
 
 
 
