@@ -1,5 +1,12 @@
 ### MGS 406 Flask Project Demo 
 
+#### Branches 
+
+`main`: hello world test app  
+`dev` added support of SQLite  
+`dev_mysql` added support of MySQL  
+
+#### Development Server
 If you have a Python virtual environment, activate it with the following command:
 
 ```bash
