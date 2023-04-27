@@ -26,7 +26,7 @@ pip list
 # Install necessary python packages using pip install  
 pip install ____________  
 
-# You can use the requirements.txt file to install all necessary packages for this example project  
+# You can use the requirements.txt file to install the dependencies for this example project  
 
 pip install -r requirements.txt  
 ```
